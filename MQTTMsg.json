@@ -1,0 +1,15 @@
+{
+  "Subscriptions":
+  {
+    "OmegaMoc":"wiata/omega/data/power",
+    "ISA010Status" : "ISA010/Status"
+  },
+  "Broadcasts":
+  {
+    "InverterEngage":"Inverter/Engage",
+    "InverterDrive":"Inverter/Drive",
+    "ISADKG" : "ISA010/DKG",
+    "ISAKASAWAR" : "ISA010/KASAWAR",
+    "ISAPWM" : "ISA010/PWM"
+  }
+}
