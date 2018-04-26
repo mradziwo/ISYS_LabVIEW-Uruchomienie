@@ -239,6 +239,7 @@
 			<Item Name="TematyDane.vi" Type="VI" URL="../SubVis/TematyDane.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
+			<Item Name="Analiza.ctl" Type="VI" URL="../Typedefs/Analiza.ctl"/>
 			<Item Name="dane.ctl" Type="VI" URL="../Typedefs/dane.ctl"/>
 			<Item Name="DKGSMin.ctl" Type="VI" URL="../Typedefs/DKGSMin.ctl"/>
 			<Item Name="DKGSMOut.ctl" Type="VI" URL="../Typedefs/DKGSMOut.ctl"/>
@@ -288,7 +289,6 @@
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Analiza.ctl" Type="VI" URL="../../../Downloads/Manipulator2015/Manipulator/Analiza.ctl"/>
 			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
