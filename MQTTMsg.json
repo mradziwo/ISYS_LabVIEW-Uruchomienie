@@ -2,7 +2,7 @@
   "Subscriptions":
   {
     "OmegaMoc":"wiata/omega/data/power",
-    "ISA010Status" : "ISA010/Status"
+    "ISA010Status" : "ISA010/STATUS"
   },
   "Broadcasts":
   {
