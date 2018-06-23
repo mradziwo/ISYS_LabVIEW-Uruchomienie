@@ -2,15 +2,15 @@
   "Subscriptions":
   {
     "OmegaMoc":"wiata/omega/data/power",
-    "ISA010Status" : "ISA010/STATUS",
-    "ISA010Online" : "ISA010/Online"
+    "ISA010Status" : "WIATA/ISA010/Data/Status",
+    "ISA010Online" : "WIATA/ISA010/Info/Status"
   },
   "Broadcasts":
   {
     "InverterEngage":"Inverter/Engage",
     "InverterDrive":"Inverter/Drive",
-    "ISADKG" : "ISA010/DKG",
-    "ISAKASAWAR" : "ISA010/KASAWAR",
-    "ISAPWM" : "ISA010/PWM"
+    "ISADKG" : "WIATA/ISA010/Control/DKG",
+    "ISAKASAWAR" : "WIATA/ISA010/Control/KasAwar",
+    "ISAPWM" : "WIATA/ISA010/Control/PWM"
   }
 }

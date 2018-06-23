@@ -245,6 +245,7 @@
 			<Item Name="DKGSMOut.ctl" Type="VI" URL="../Typedefs/DKGSMOut.ctl"/>
 			<Item Name="mqttinputs.ctl" Type="VI" URL="../Typedefs/mqttinputs.ctl"/>
 		</Item>
+		<Item Name="DecodeISAStatus.vi" Type="VI" URL="../SubVis/DecodeISAStatus.vi"/>
 		<Item Name="Uruchomienie.vi" Type="VI" URL="../Uruchomienie.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
