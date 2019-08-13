@@ -3,7 +3,10 @@
   {
     "OmegaMoc":"wiata/omega/data/power",
     "ISA010Status" : "WIATA/ISA010/Data/Status",
-    "ISA010Online" : "WIATA/ISA010/Info/Status"
+    "ISA010Online" : "WIATA/ISA010/Info/Status",
+    "AnemometrPrzeplyw":"anemometr/przeplyw",
+    "AnemometrOnline":"anemometr/online",
+    "InverterOnline":"Inverter/Online"
   },
   "Broadcasts":
   {
