@@ -236,11 +236,16 @@
 		</Item>
 		<Item Name="SubVis" Type="Folder">
 			<Item Name="ConfigureMQTT.vi" Type="VI" URL="../SubVis/ConfigureMQTT.vi"/>
+			<Item Name="DecodeISAStatus.vi" Type="VI" URL="../SubVis/DecodeISAStatus.vi"/>
 			<Item Name="DKGSM.vi" Type="VI" URL="../SubVis/DKGSM.vi"/>
+			<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
 			<Item Name="ListaKto.vi" Type="VI" URL="../SubVis/ListaKto.vi"/>
 			<Item Name="ListaKto_new.vi" Type="VI" URL="../SubVis/ListaKto_new.vi"/>
 			<Item Name="ListaTematy.vi" Type="VI" URL="../SubVis/ListaTematy.vi"/>
+			<Item Name="ListaTematy_new.vi" Type="VI" URL="../SubVis/ListaTematy_new.vi"/>
 			<Item Name="ListTable.vi" Type="VI" URL="../SubVis/ListTable.vi"/>
+			<Item Name="ListTableWHERE.vi" Type="VI" URL="../SubVis/ListTableWHERE.vi"/>
+			<Item Name="Pre-Build Action.vi" Type="VI" URL="../SubVis/Pre-Build Action.vi"/>
 			<Item Name="PurgeTime.vi" Type="VI" URL="../SubVis/PurgeTime.vi"/>
 			<Item Name="PWMLimiter.vi" Type="VI" URL="../SubVis/PWMLimiter.vi"/>
 			<Item Name="QuerrySQL.vi" Type="VI" URL="../SubVis/QuerrySQL.vi"/>
@@ -248,6 +253,9 @@
 			<Item Name="StartPostPurge.vi" Type="VI" URL="../SubVis/StartPostPurge.vi"/>
 			<Item Name="StateMacines.vi" Type="VI" URL="../SubVis/StateMacines.vi"/>
 			<Item Name="TematyDane.vi" Type="VI" URL="../SubVis/TematyDane.vi"/>
+			<Item Name="TematyDane_new.vi" Type="VI" URL="../SubVis/TematyDane_new.vi"/>
+			<Item Name="updateGitRevision.vi" Type="VI" URL="../SubVis/updateGitRevision.vi"/>
+			<Item Name="Version.vi" Type="VI" URL="../SubVis/Version.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="Analiza.ctl" Type="VI" URL="../Typedefs/Analiza.ctl"/>
@@ -256,13 +264,8 @@
 			<Item Name="DKGSMOut.ctl" Type="VI" URL="../Typedefs/DKGSMOut.ctl"/>
 			<Item Name="mqttinputs.ctl" Type="VI" URL="../Typedefs/mqttinputs.ctl"/>
 		</Item>
-		<Item Name="DecodeISAStatus.vi" Type="VI" URL="../SubVis/DecodeISAStatus.vi"/>
-		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
-		<Item Name="ListaTematy_new.vi" Type="VI" URL="../SubVis/ListaTematy_new.vi"/>
-		<Item Name="ListTableWHERE.vi" Type="VI" URL="../SubVis/ListTableWHERE.vi"/>
 		<Item Name="MQTT.json" Type="Document" URL="../MQTT.json"/>
 		<Item Name="MQTTMsg.json" Type="Document" URL="../MQTTMsg.json"/>
-		<Item Name="TematyDane_new.vi" Type="VI" URL="../SubVis/TematyDane_new.vi"/>
 		<Item Name="Uruchomienie.vi" Type="VI" URL="../Uruchomienie.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -327,6 +330,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/uruchomienie</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/SubVis/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6CC5BC57-FD31-4115-ADA4-21736159527C}</Property>
 				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
@@ -339,17 +343,17 @@
 				<Property Name="Destination[2].destName" Type="Str">dir</Property>
 				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/uruchomienie</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{714880FE-8C62-4356-81D5-B2266C567655}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EAD81345-0B82-4079-8C88-EF854DEFF26F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Launcher.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SubVis/Launcher.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[10].itemID" Type="Ref">/My Computer/MQTTMsg.json</Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/TematyDane_new.vi</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/SubVis/TematyDane_new.vi</Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
@@ -376,15 +380,15 @@
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/DecodeISAStatus.vi</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/SubVis/DecodeISAStatus.vi</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/ListaTematy_new.vi</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/SubVis/ListaTematy_new.vi</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/ListTableWHERE.vi</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/SubVis/ListTableWHERE.vi</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">2</Property>
