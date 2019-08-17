@@ -336,7 +336,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/SubVis/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6CC5BC57-FD31-4115-ADA4-21736159527C}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">uruchomienie.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/uruchomienie/uruchomienie.exe</Property>
