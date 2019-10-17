@@ -16,9 +16,9 @@
     "password": false,
     "user name": false
   },
-  "Keep Alive": 5000,
+  "Keep Alive": 50,
   "Client Info": {
-    "ClientId": "ISADriver1$$$$$",
+    "ClientId": "UruchomienieApp",
     "Will Topic": "ISA010/Online",
     "Will Message": "flase",
     "User Name": "",

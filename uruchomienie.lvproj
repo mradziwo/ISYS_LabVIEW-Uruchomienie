@@ -66,6 +66,8 @@
 							<Item Name="Subscrie Argument--cluster.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/MQTT/Subscrie Argument--cluster.ctl"/>
 							<Item Name="unsubscribe Argument--cluster.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/MQTT/unsubscribe Argument--cluster.ctl"/>
 							<Item Name="Publish Argument--cluster.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/MQTT/Publish Argument--cluster.ctl"/>
+							<Item Name="PublishByAlias Argument--cluster.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/MQTT/PublishByAlias Argument--cluster.ctl"/>
+							<Item Name="addTopicAlias Argument--cluster.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/MQTT/addTopicAlias Argument--cluster.ctl"/>
 						</Item>
 						<Item Name="Broadcast" Type="Folder">
 							<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/MQTT/Did Init Argument--cluster.ctl"/>
@@ -85,6 +87,8 @@
 						<Item Name="Subscrie.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/MQTT/Subscrie.vi"/>
 						<Item Name="unsubscribe.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/MQTT/unsubscribe.vi"/>
 						<Item Name="Publish.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/MQTT/Publish.vi"/>
+						<Item Name="PublishByAlias.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/MQTT/PublishByAlias.vi"/>
+						<Item Name="addTopicAlias.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/MQTT/addTopicAlias.vi"/>
 					</Item>
 					<Item Name="Start Module.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/MQTT/Start Module.vi"/>
 					<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/MQTT/Synchronize Module Events.vi"/>
@@ -102,6 +106,8 @@
 					<Item Name="Message.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/MQTT/Message.vi"/>
 				</Item>
 				<Item Name="Requests" Type="Folder">
+					<Item Name="broadcastTopic Argument--cluster.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/MQTT/broadcastTopic Argument--cluster.ctl"/>
+					<Item Name="broadcastTopic.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/MQTT/broadcastTopic.vi"/>
 					<Item Name="Register Event Argument--cluster.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/MQTT/Register Event Argument--cluster.ctl"/>
 					<Item Name="Request Events--cluster.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/MQTT/Request Events--cluster.ctl"/>
 					<Item Name="Obtain Request Events.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/MQTT/Obtain Request Events.vi"/>
@@ -156,24 +162,11 @@
 				<Item Name="mqttCmdPing.lvclass" Type="LVClass" URL="../Libraries/MQTT.lvlibp/Libraries/mqtt Folder/src/class/mqtt/mqttCmd/mqttCmdPing/mqttCmdPing.lvclass"/>
 				<Item Name="Delacor_lib_QMH_Cloneable Module Admin.lvclass" Type="LVClass" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Delacor/Delacor QMH/Libraries/Cloneable Module Admin_class/Delacor_lib_QMH_Cloneable Module Admin.lvclass"/>
 				<Item Name="Delacor_lib_QMH_Module Admin.lvclass" Type="LVClass" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Delacor/Delacor QMH/Libraries/Module Admin_class/Delacor_lib_QMH_Module Admin.lvclass"/>
+				<Item Name="DICT.lvclass" Type="LVClass" URL="../Libraries/MQTT.lvlibp/OOP/Dict/DICT.lvclass"/>
 				<Item Name="Delacor_lib_QMH_Message Queue.lvclass" Type="LVClass" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Delacor/Delacor QMH/Libraries/Message Queue_class/Delacor_lib_QMH_Message Queue.lvclass"/>
-				<Item Name="GetHelpDir.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetHelpDir.vi"/>
-				<Item Name="BuildHelpPath.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Get String Text Bounds.vi"/>
-				<Item Name="Get Text Rect.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Longest Line Length in Pixels.vi"/>
-				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog CORE.vi"/>
-				<Item Name="Three Button Dialog.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog.vi"/>
-				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="Not Found Dialog.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Set Bold Text.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="eventvkey.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/event_ctls.llb/eventvkey.ctl"/>
-				<Item Name="TagReturnType.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="ErrWarn.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/ErrWarn.ctl"/>
-				<Item Name="MessageTypedef.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/MQTT/MessageTypedef.ctl"/>
 				<Item Name="mqttRXsubscriptionEventFunction.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/mqtt Folder/src/class/mqtt/mqttTXqueue/mqttRXsubscriptionEventFunction.ctl"/>
 				<Item Name="mqttTXdataQueueFunction.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/mqtt Folder/src/class/mqtt/mqttTXqueue/mqttTXdataQueueFunction.ctl"/>
 				<Item Name="mqttTXdataQueue.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/mqtt Folder/src/class/mqtt/mqttTXqueue/mqttTXdataQueue.vi"/>
@@ -187,16 +180,42 @@
 				<Item Name="mqttRXsubscriptionEventData.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/mqtt Folder/src/class/mqtt/mqttTXqueue/mqttRXsubscriptionEventData.ctl"/>
 				<Item Name="mqttRXsubscriptionEvent.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/mqtt Folder/src/class/mqtt/mqttTXqueue/mqttRXsubscriptionEvent.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="mqttTXdataQueueEnqueue.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/mqtt Folder/src/class/mqtt/mqttTXqueue/mqttTXdataQueueEnqueue.vi"/>
+				<Item Name="mqttCmdPublishAckCommand.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/mqtt Folder/src/class/mqtt/mqttCmd/mqttCmdPublish/mqttCmdPublishAckCommand.vi"/>
+				<Item Name="mqttCmdPublishReceivedCommand.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/mqtt Folder/src/class/mqtt/mqttCmd/mqttCmdPublish/mqttCmdPublishReceivedCommand.vi"/>
+				<Item Name="mqttCmdPublishCompleteCommand.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/mqtt Folder/src/class/mqtt/mqttCmd/mqttCmdPublish/mqttCmdPublishCompleteCommand.vi"/>
+				<Item Name="mqttCmdPingResponse.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/mqtt Folder/src/class/mqtt/mqttCmd/mqttCmdPublish/mqttCmdPingResponse.vi"/>
+				<Item Name="TCP Get Raw Net Object.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/tcp.llb/TCP Get Raw Net Object.vi"/>
+				<Item Name="TCP_NoDelay_Windows.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/mqtt Folder/src/library/tcpip/TCP_NoDelay_Windows.vi"/>
+				<Item Name="stringToUTF8Array.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/mqtt Folder/src/library/string/stringToUTF8Array.vi"/>
+				<Item Name="stringToUTF8ArrayWithLength.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/mqtt Folder/src/library/string/stringToUTF8ArrayWithLength.vi"/>
+				<Item Name="mqttUserInformation.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/mqtt Folder/src/class/mqtt/mqttTypedef/mqttUserInformation.ctl"/>
+				<Item Name="mqttWillInformation.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/mqtt Folder/src/class/mqtt/mqttTypedef/mqttWillInformation.ctl"/>
+				<Item Name="mqttConnectionFlags.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/mqtt Folder/src/class/mqtt/mqttTypedef/mqttConnectionFlags.ctl"/>
+				<Item Name="mqttBroker.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/mqtt Folder/src/class/mqtt/mqttTypedef/mqttBroker.ctl"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="BuildHelpPath.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="GetHelpDir.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="Get Text Rect.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/picture/picture.llb/Get Text Rect.vi"/>
+				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Longest Line Length in Pixels.vi"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog CORE.vi"/>
+				<Item Name="Three Button Dialog.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="Not Found Dialog.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Set Bold Text.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="eventvkey.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="TagReturnType.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="ErrWarn.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="whitespace.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="Trim Whitespace.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Check Special Tags.vi"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/General Error Handler.vi"/>
@@ -217,19 +236,6 @@
 				<Item Name="RemoveNamedRendezvousPrefix.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/rendezvs.llb/RemoveNamedRendezvousPrefix.vi"/>
 				<Item Name="Destroy A Rendezvous.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/rendezvs.llb/Destroy A Rendezvous.vi"/>
 				<Item Name="Destroy Rendezvous.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/rendezvs.llb/Destroy Rendezvous.vi"/>
-				<Item Name="mqttTXdataQueueEnqueue.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/mqtt Folder/src/class/mqtt/mqttTXqueue/mqttTXdataQueueEnqueue.vi"/>
-				<Item Name="mqttCmdPublishAckCommand.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/mqtt Folder/src/class/mqtt/mqttCmd/mqttCmdPublish/mqttCmdPublishAckCommand.vi"/>
-				<Item Name="mqttCmdPublishReceivedCommand.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/mqtt Folder/src/class/mqtt/mqttCmd/mqttCmdPublish/mqttCmdPublishReceivedCommand.vi"/>
-				<Item Name="mqttCmdPublishCompleteCommand.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/mqtt Folder/src/class/mqtt/mqttCmd/mqttCmdPublish/mqttCmdPublishCompleteCommand.vi"/>
-				<Item Name="mqttCmdPingResponse.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/mqtt Folder/src/class/mqtt/mqttCmd/mqttCmdPublish/mqttCmdPingResponse.vi"/>
-				<Item Name="TCP Get Raw Net Object.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/tcp.llb/TCP Get Raw Net Object.vi"/>
-				<Item Name="TCP_NoDelay_Windows.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/mqtt Folder/src/library/tcpip/TCP_NoDelay_Windows.vi"/>
-				<Item Name="stringToUTF8Array.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/mqtt Folder/src/library/string/stringToUTF8Array.vi"/>
-				<Item Name="stringToUTF8ArrayWithLength.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/mqtt Folder/src/library/string/stringToUTF8ArrayWithLength.vi"/>
-				<Item Name="mqttUserInformation.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/mqtt Folder/src/class/mqtt/mqttTypedef/mqttUserInformation.ctl"/>
-				<Item Name="mqttWillInformation.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/mqtt Folder/src/class/mqtt/mqttTypedef/mqttWillInformation.ctl"/>
-				<Item Name="mqttConnectionFlags.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/mqtt Folder/src/class/mqtt/mqttTypedef/mqttConnectionFlags.ctl"/>
-				<Item Name="mqttBroker.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/Libraries/mqtt Folder/src/class/mqtt/mqttTypedef/mqttBroker.ctl"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="../Libraries/MQTT.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
 			</Item>
